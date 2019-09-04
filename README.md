@@ -27,5 +27,5 @@ Lists system information when run on any computer. This factors out some functio
 
 `python3 specs.py`
 
-And it will give you a small prompt with your system information and then ask if you would like a report of your largest files. 
+And it will give you a small prompt with your system information and then ask if you would like a report of your largest files. This may take a while as it is quite literally finding and listing every single file above 10MB on your hard drive. Only tested on Mac OSX, but it should work on linux and I wrote a wee bit in there so that it hopefully works on windows.
 
